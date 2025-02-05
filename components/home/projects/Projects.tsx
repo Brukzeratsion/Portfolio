@@ -69,7 +69,7 @@ const projects = [
   },
   {
     title: "Evangadi Forum",
-    imgSrc: "/project-imgs/wh_app.png",
+    imgSrc: "/project-imgs/EvangadiForum.png",
     code: "https://www.github.com",
     projectLink:
       "https://evangadiforumclient2.netlify.app",
