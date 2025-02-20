@@ -19,68 +19,44 @@ export const Projects = () => {
 const projects = [
   {
     title: "Apple Clone",
-    imgSrc: "/project-imgs/Apple.jpeg",
+    imgSrc: "/project-imgs/Apple.png",
     code: "https://github.com/Brukzeratsion",
-    projectLink: "#",
+    projectLink: "",
     tech: ["React"],
     description: "Apple Clone.",
     modalContent: (
       <>
-        <p>
-          Worked as a front-end developer and created dynamic reusable
-          components and base layout from a mock-up.
-        </p>
-        <p>
-          The tech stack is based on Nextjs with the custom tailwind components,
-          connected to a Prisma backend.
-        </p>
+        <p></p>
+        <p></p>
       </>
     ),
   },
   {
     title: "Netflix clone",
-    imgSrc: "/project-imgs/Netflix.jpg",
+    imgSrc: "/project-imgs/Netflix.png",
     code: "https://github.com/Brukzeratsion",
-    projectLink: "https://elancerz.com/",
-    tech: ["React","Material Ui"],
-    description:
-      "Netflix clone",
-    modalContent: (
-      <>
-        
-      </>
-    ),
+    projectLink: "https://brukzeratsion.github.io/Netflix-Clone/",
+    tech: ["React", "Material Ui"],
+    description: "Netflix clone",
+    modalContent: <></>,
   },
   {
     title: "Amazon Clone",
-    imgSrc: "/project-imgs/Amazon.jpg",
+    imgSrc: "/project-imgs/Amazon.png",
     code: "https://github.com/Brukzeratsion",
-    
+
     projectLink: "https://amazonclonebz.netlify.app/",
     tech: ["React", "Firebase", "MySQL", "Nodejs"],
-    description:
-      "Amazon Clone.",
-    modalContent: (
-      <>
-        
-         
-      </>
-    ),
+    description: "Amazon Clone.",
+    modalContent: <></>,
   },
   {
     title: "Evangadi Forum",
     imgSrc: "/project-imgs/EvangadiForum.png",
     code: "https://www.github.com",
-    projectLink:
-      "https://evangadiforumclient2.netlify.app",
-    tech: ["React", "Nodejs","MySQL"],
-    description:
-      "A Forum where everybody can ask question as well as answer",
-    modalContent: (
-      <>
-        
-      </>
-    ),
+    projectLink: "https://evangadiforumclient2.netlify.app",
+    tech: ["React", "Nodejs", "MySQL"],
+    description: "A Forum where everybody can ask question as well as answer",
+    modalContent: <></>,
   },
-  
 ];
