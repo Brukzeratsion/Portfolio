@@ -19,7 +19,7 @@ export const Projects = () => {
 const projects = [
   {
     title: "Apple Clone",
-    imgSrc: "/Apple.png",
+    imgSrc: "/project-imgs/Apple.png",
     code: "https://github.com/Brukzeratsion",
     projectLink: "",
     tech: ["React"],
@@ -33,7 +33,7 @@ const projects = [
   },
   {
     title: "Netflix clone",
-    imgSrc: "/Netflix.png",
+    imgSrc: "/project-imgs/Netflix.png",
     code: "https://github.com/Brukzeratsion",
     projectLink: "https://brukzeratsion.github.io/Netflix-Clone/",
     tech: ["React", "Material Ui"],
@@ -42,7 +42,7 @@ const projects = [
   },
   {
     title: "Amazon Clone",
-    imgSrc: "/Amazon.png",
+    imgSrc: "/project-imgs/Amazon.png",
     code: "https://github.com/Brukzeratsion",
 
     projectLink: "https://amazonclonebz.netlify.app/",
@@ -52,7 +52,7 @@ const projects = [
   },
   {
     title: "Evangadi Forum",
-    imgSrc: "/EvangadiForum.png",
+    imgSrc: "/project-imgs/EvangadiForum.png",
     code: "https://www.github.com",
     projectLink: "https://evangadiforumclient2.netlify.app",
     tech: ["React", "Nodejs", "MySQL"],
