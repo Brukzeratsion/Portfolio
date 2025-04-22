@@ -10,7 +10,7 @@ interface Props {
   modalContent: JSX.Element;
   description: string;
   projectLink: string;
-  imgSrc: string;
+  imgSrc: any;
   tech: string[];
   title: string;
   code: string;

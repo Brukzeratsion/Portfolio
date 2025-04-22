@@ -1,6 +1,10 @@
 import { SectionHeader } from "@/components/utils/SectionHeader";
 import { Project } from "./Project";
 import styles from "./projects.module.scss";
+import Apple from "@/public/project-imgs/Apple.png";
+import Netflix from "@/public/project-imgs/Netflix.png";
+import Amazon from "@/public/project-imgs/Amazon.png";
+import Evangadi from "@/public/project-imgs/EvangadiForum.png";
 
 export const Projects = () => {
   return (
@@ -19,7 +23,7 @@ export const Projects = () => {
 const projects = [
   {
     title: "Apple Clone",
-    imgSrc: "public/project-imgs/Apple.png",
+    imgSrc: Apple,
     code: "https://github.com/Brukzeratsion",
     projectLink: "",
     tech: ["React"],
@@ -33,7 +37,7 @@ const projects = [
   },
   {
     title: "Netflix clone",
-    imgSrc: "public/project-imgs/Netflix.png",
+    imgSrc: Netflix,
     code: "https://github.com/Brukzeratsion",
     projectLink: "https://brukzeratsion.github.io/Netflix-Clone/",
     tech: ["React", "Material Ui"],
@@ -42,7 +46,7 @@ const projects = [
   },
   {
     title: "Amazon Clone",
-    imgSrc: "public/project-imgs/Amazon.png",
+    imgSrc: Amazon,
     code: "https://github.com/Brukzeratsion",
 
     projectLink: "https://amazonclonebz.netlify.app/",
@@ -52,7 +56,7 @@ const projects = [
   },
   {
     title: "Evangadi Forum",
-    imgSrc: "public/project-imgs/EvangadiForum.png",
+    imgSrc: Evangadi,
     code: "https://www.github.com",
     projectLink: "https://evangadiforumclient2.netlify.app",
     tech: ["React", "Nodejs", "MySQL"],
